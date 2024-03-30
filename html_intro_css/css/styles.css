@@ -1,0 +1,18 @@
+body {
+    background-color: #D91A96;
+}
+
+#container {
+    background-color: antiquewhite;
+    padding: 20px;
+    Width: 75%;
+    margin: 0 auto;
+    border: 4px solid black;
+}
+
+header h1 {
+    text-align: center;
+    font-size: 100px;
+    color:#D91A96;
+    text-shadow: 2px 4px 2px black;
+}
