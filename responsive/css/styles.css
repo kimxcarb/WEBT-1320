@@ -1,0 +1,150 @@
+ /* Global Styles */
+ img {
+    display:block;
+    margin: 0 auto;
+    width: 100%;
+ }
+
+ body {
+    background-color: #A67D4B;
+ }
+
+ #container {
+    background-color: white;
+    padding: 10px;
+ }
+
+ h1,
+ h2,
+ h3 {
+    text-align: center;
+ }
+
+ a {
+    color: #BF665E;
+ }
+
+a:hover {
+    color: #F2A0A0;
+    text-decoration: none;
+}
+
+ /* Moblie Styles */
+nav {
+    background-color: #F5E3E1;
+    padding: 10px;
+ }
+ 
+ nav ul {
+    list-style-type: none;
+    padding: 0;
+ }
+
+ nav li  {
+    display: block;
+ }
+
+ nav li a {
+    display:block;
+    height: 40px;
+    line-height: 40px;
+    color: aliceblue;
+    background-color: #A67D4B;
+    text-align: center;
+    margin: 5px 0;
+    font-size: 20px;
+    font-weight: bolder;
+    text-decoration: none;
+ }
+
+ nav li a:hover{
+    background-color: #F28891;
+ }
+
+ header h1 {
+    font-size: 35px;
+    color:#BF785E;
+ }
+
+ main {
+    border: 20px solid beige;
+    padding: 20px;
+    margin: 10px 0;
+ }
+
+ #lower {
+    border: 20px solid beige;
+    padding: 10px;
+ }
+
+ .col {
+    border: 2px solid beige;
+    margin: 10px;
+    padding: 10px;
+ }
+
+ footer { 
+    padding: 40px 0;
+    text-align: center;
+ }
+
+.button {
+    display:block;
+    margin: 10px auto;
+    text-align: center;
+    background-color: bisque;
+    width: 125px;
+    height: 40px;
+    line-height: 40px;
+    text-decoration: none;
+    border: 2px solid #F2A0A0;
+    border-radius: 10px ;
+    font-weight: bolder;
+}
+
+.button:hover{
+    color: bisque;
+}
+
+/* tablet styles */
+
+@media (min-width: 786px ) {
+    nav li {
+        text-align: center;
+    }
+
+    nav li {
+        display: inline-block;
+    }
+
+    nav li a {
+        width: 200 px;
+    }
+
+    main img {
+        width: 75%;
+        margin: 0 auto;
+    }
+    .col img {
+        width: 75%;
+    }
+}
+
+/* Desktop styles */
+
+@media (min-width: 1024px) {
+    #container {
+        width: 65%; 
+        margin: 20px auto;
+    }
+
+    #lower { 
+        width: 100%;
+        display: flex;
+    }
+
+
+    .col {
+        width: 33.33%;
+    }
+}
